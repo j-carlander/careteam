@@ -3,16 +3,16 @@ export function changeBGColor(color: string){
 
     switch(color){
         case "blue":
-            root.style.setProperty('--team-color', 'rgb(0, 153, 255)');
-            root.style.setProperty('--team-accent-color', 'lightblue');
+            root.style.setProperty('--team-color', '#00B0F0');
+            root.style.setProperty('--team-accent-color', '#DDEBF7');
             break;
         case "red":
-            root.style.setProperty('--team-color', 'rgb(248, 69, 69)');
-            root.style.setProperty('--team-accent-color', 'pink');
+            root.style.setProperty('--team-color', '#FC4936');
+            root.style.setProperty('--team-accent-color', '#FEB0A8');
             break;
         case "orange":
-            root.style.setProperty('--team-color', 'rgb(255, 185, 55)');
-            root.style.setProperty('--team-accent-color', 'rgb(250, 215, 151)');
+            root.style.setProperty('--team-color', '#F4B084');
+            root.style.setProperty('--team-accent-color', '#FCE4D6');
             break;
     }
 }

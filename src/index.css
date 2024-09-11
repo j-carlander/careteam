@@ -9,11 +9,14 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
 
-  --team-color:  rgb(0, 153, 255); 
-  --team-accent-color: lightblue;
+  --team-color:  #00B0F0; 
+  --team-accent-color: #DDEBF7;
 }
 
 @media print {
+  @page {
+    size: landscape;
+  }
   body{
     margin: 0;
   }
