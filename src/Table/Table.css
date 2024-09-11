@@ -1,0 +1,43 @@
+table{
+    border-collapse: collapse;
+}
+
+tr {
+  height: 27px;
+}
+
+td {
+  border: solid 1px black;
+  font-size: 0.688rem;
+  padding: 0;
+}
+
+.first-cell,
+.second-cell {
+  width: 50px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  transform: rotate(180deg);
+
+  font-size: 1.6rem;
+}
+
+.first-cell {
+  background-color: var(--team-color);
+  padding-left: 0.2em;
+}
+
+.header-cell,
+.data-cell {
+  vertical-align: top;
+}
+
+.header-cell {
+  width: 90px;
+  background-color: var(--team-accent-color);
+  overflow-wrap: break-word;
+}
+
+.data-cell:nth-child(1n + 3) {
+  width: 120px;
+}
